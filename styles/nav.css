@@ -6,43 +6,31 @@
   justify-content: space-between;
 }
 
-/* &__activeLink {
-  @apply bg-red-800
-    h-24
-    mb-6
-    px-12
-    flex
-    items-end;
+.nav__logo {
+  width: 14rem;
+  height: 7rem;
+  position: relative;
 }
 
-&__link {
-  margin-right: 2rem;
-}
-
-&__list {
+.nav__list {
   display: flex;
   flex: 7;
   justify-content: flex-end;
 }
 
-&__logo {
-  @apply w-56
-  h-28
-  ml-12
-  relative;
-  flex: 1;
+.nav__link {
+  margin-right: 2rem;
 }
 
-&__socialMediaIcon {
+.nav__socialMediaIcon {
   width: 1rem;
   height: 1rem;
   background-color: white;
 }
 
-&__socialMediaWrapper {
+.nav__socialMediaWrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
   flex: 1;
 }
-} */
