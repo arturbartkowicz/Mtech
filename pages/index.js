@@ -8,11 +8,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center"></main>
+      <main className="nav flex flex-col items-center justify-center w-full flex-1 px-20 text-center"></main>
 
       <footer className="flex items-center justify-center w-full h-12 border-t bg-black">
         <p className="text-white">
-          <span className="text-red-800">M</span>TECH
+          <span className="text-red-800">M</span>TECH PRECISION &#169; 2021
         </p>
       </footer>
     </div>
