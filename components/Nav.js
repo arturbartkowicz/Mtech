@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function Nav() {
   return (
     <nav className="nav">
-      {/* <div className="nav__logo">
-        <Image src="/images/logo-1.png" alt="Company logo" layout="fill" />
-      </div> */}
+      <div className="nav__logo">
+        <Image src="/images/logo.png" alt="Company logo" layout="fill" />
+      </div>
       <ul className="nav__list">
         <li className="nav__link">
           <Link href="/#ofirmie">
