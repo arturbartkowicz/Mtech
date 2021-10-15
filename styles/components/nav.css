@@ -34,3 +34,10 @@
   flex-direction: column;
   flex: 1;
 }
+
+@media (max-width: 800px) {
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+}

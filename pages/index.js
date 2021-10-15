@@ -1,24 +1,23 @@
-import Head from "next/head";
+import Header from "../components/Header";
 import Nav from "../components/Nav";
+import About from "../components/About";
+import Offer from "../components/Offer";
+import Realizations from "../components/Realizations";
+import Questions from "../components/Questions";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      <Head>
-        <title>MTech</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+    <>
+      <Header />
       <Nav />
-      <main className="flex flex-col items-center w-full flex-1 px-20 text-center">
-        <p>1 section</p>
-        <p>2 section</p>
-      </main>
-      <footer className="flex items-center justify-center w-full h-12 border-t bg-black">
-        <p className="text-white">
-          <span className="text-red-800">M</span>TECH PRECISION &#169; 2021
-        </p>
-      </footer>
-    </div>
+      <About />
+      <Offer />
+      <Realizations />
+      <Questions />
+      <Contact />
+      <Footer />
+    </>
   );
 }

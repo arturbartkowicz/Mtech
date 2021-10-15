@@ -348,16 +348,27 @@ th {
   padding: 0;
 }
 
-//Custom styles
+/* Variables */
 
-.visibilityMobile {
-  @media (min-width: $desktop) {
+:root {
+  --phone: 460px;
+  --phone-lg: 640px;
+  --tablet: 800px;
+  --tablet-lg: 1024px;
+  --desktop: 1279px;
+  --desktop-lg: 1600px;
+  --desktop-xl: 1900px;
+}
+/* Custom styles */
+
+@media (min-width: 1279px) {
+  .visibilityMobile {
     display: none !important;
   }
 }
 
-.visibilityDesktop {
-  @media (max-width: $desktop) {
+@media (max-width: 800px) {
+  .visibilityDesktop {
     display: none !important;
   }
 }
