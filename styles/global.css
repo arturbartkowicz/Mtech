@@ -358,6 +358,17 @@ th {
   --desktop: 1279px;
   --desktop-lg: 1600px;
   --desktop-xl: 1900px;
+
+  /* Font size */
+  --font-small: 1.2rem;
+  --font-large: 2rem;
+
+  /* Font Weight */
+  --weight-thin: 400;
+  --weight-bold: 500;
+
+  /* Colors */
+  --color-red: rgba(153, 27, 27, 0.8);
 }
 /* Custom styles */
 

@@ -1,4 +1,44 @@
 .contact {
+  display: flex;
+  justify-content: space-around;
   width: 100%;
-  height: 50rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact__box {
+  flex: 1;
+}
+
+.contact__box--1 {
+  padding-left: 2rem;
+}
+
+.contact__box--2 {
+  padding-left: 2rem;
+  border-right: 2px solid var(--color-red);
+  border-left: 2px solid var(--color-red);
+}
+
+.contact__box--3 {
+  padding-left: 2rem;
+}
+
+.contact__header {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 800px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact__header {
+    font-size: var(--font-small);
+    font-weight: var(--weight-thin);
+  }
 }
