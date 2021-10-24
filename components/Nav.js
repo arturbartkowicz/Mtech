@@ -46,7 +46,7 @@ export default function Nav() {
         <li className="nav__link">
           <Link href="/#contact">
             <a className="text-white">
-              <u>KONTAKT</u>
+              <u>PYTANIA I KONTAKT</u>
             </a>
           </Link>
         </li>
