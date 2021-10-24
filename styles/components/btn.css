@@ -4,3 +4,18 @@
   width: 20rem;
   height: 2.5rem;
 }
+
+.btn__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 800px) {
+  .btn__container {
+    justify-content: start;
+    margin-top: 1rem;
+  }
+}

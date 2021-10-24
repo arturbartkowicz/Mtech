@@ -55,4 +55,8 @@
     font-size: var(--font-small);
     font-weight: var(--weight-thin);
   }
+
+  .contact__box--2 {
+    border: none;
+  }
 }

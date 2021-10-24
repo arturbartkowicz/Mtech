@@ -20,7 +20,7 @@ export default function Contact() {
             Najczęstsze pytanie #5
           </div>
         </div>
-        <div className="w-full flex justify-center mt-auto mb-4">
+        <div className="btn__container">
           <button className="btn">pokaz więcej</button>
         </div>
       </div>
