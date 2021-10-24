@@ -16,9 +16,9 @@ export default function Nav() {
           </Link>
         </li>
         <li className="nav__link">
-          <Link href="/#offer">
+          <Link href="/#products">
             <a className="text-white">
-              <u>OFERTA</u>
+              <u>PRODUKTY</u>
             </a>
           </Link>
         </li>
