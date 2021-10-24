@@ -13,6 +13,9 @@
 
 .contact__box--1 {
   padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .contact__box--2 {
