@@ -1,7 +1,8 @@
 @import "./components/nav.css";
 @import "./components/about.css";
 @import "./components/products.css";
+@import "./components/services.css";
 @import "./components/realizations.css";
-@import "./components/questions.css";
+@import "./components/cooperation.css";
 @import "./components/contact.css";
 @import "./components/footer.css";

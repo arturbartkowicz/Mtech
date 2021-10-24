@@ -23,6 +23,13 @@ export default function Nav() {
           </Link>
         </li>
         <li className="nav__link">
+          <Link href="/#services">
+            <a className="text-white">
+              <u>USŁUGI</u>
+            </a>
+          </Link>
+        </li>
+        <li className="nav__link">
           <Link href="/#realizations">
             <a className="text-white">
               <u>REALIZACJE</u>
@@ -30,9 +37,9 @@ export default function Nav() {
           </Link>
         </li>
         <li className="nav__link">
-          <Link href="/#questions">
+          <Link href="/#cooperation">
             <a className="text-white">
-              <u>PYTANIA</u>
+              <u>WSPÓŁPRACA</u>
             </a>
           </Link>
         </li>
