@@ -1,11 +1,8 @@
-.heading {
-  font-size: 3rem;
-  font-weight: 800;
-  margin-bottom: 1rem;
+.paragraphText {
 }
 
 @media (max-width: 800px) {
-  .heading {
+  .paragraphText {
     padding-left: 2rem;
     padding-right: 2rem;
   }

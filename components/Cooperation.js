@@ -3,7 +3,7 @@ export default function Cooperation() {
     <div id="cooperation" className="cooperation">
       <div className="cooperation__container">
         <h2 className="heading">Cooperation Section</h2>
-        <p>
+        <p className="paragraphText">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
           exercitationem hic. Quam quo blanditiis distinctio magni ipsa ab,
           cumque aspernatur doloremque impedit mollitia nam fugiat quaerat
