@@ -441,3 +441,9 @@ textarea::placeholder {
   overflow-y: hidden;
   overflow: hidden;
 }
+
+/* Slick Slide css */
+
+.slick-slide {
+  text-align: center;
+}
