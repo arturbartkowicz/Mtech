@@ -1,4 +1,57 @@
 .about {
+  display: flex;
+  justify-content: center;
   width: 100%;
-  height: 50rem;
+  background-image: url("../../public/images/AboutBG.png");
+  background-size: cover;
+  background-position: right;
+}
+
+.about__wrapper {
+  display: flex;
+  flex-flow: row;
+  width: 1400px;
+  padding: 10rem 0;
+}
+
+.about__section {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.about__section_header {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.about__description {
+  width: 75%;
+  font-size: 1.1rem;
+}
+
+.features {
+  align-items: center;
+}
+
+.features_list {
+  display: flex;
+  flex-flow: column;
+  gap: 2.5rem;
+}
+
+.feature {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.feature__list_bullet {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 2rem;
+  background-color: var(--color-red);
 }
