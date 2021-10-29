@@ -60,27 +60,29 @@ export default function Contact() {
       </div>
       <div className="contact__box contact__box--3">
         <h3 className="contact__header">Nasi partnerzy:</h3>
-        <div className="text-white w-40 h-40">
-          <Slider {...settings}>
-            <div className="w-full flex justify-center">
-              <h3>1</h3>
-            </div>
-            <div>
-              <h3>2</h3>
-            </div>
-            <div>
-              <h3>3</h3>
-            </div>
-            <div>
-              <h3>4</h3>
-            </div>
-            <div>
-              <h3>5</h3>
-            </div>
-            <div>
-              <h3>6</h3>
-            </div>
-          </Slider>
+        <div className="contact__sliderContainer">
+          <div className="contact__slider">
+            <Slider {...settings}>
+              <div className="w-full flex justify-center">
+                <h3>1sdkjfnkjfnkjfnfk sf fewf</h3>
+              </div>
+              <div>
+                <h3>2</h3>
+              </div>
+              <div>
+                <h3>3</h3>
+              </div>
+              <div>
+                <h3>4</h3>
+              </div>
+              <div>
+                <h3>5</h3>
+              </div>
+              <div>
+                <h3>6</h3>
+              </div>
+            </Slider>
+          </div>
         </div>
       </div>
     </div>

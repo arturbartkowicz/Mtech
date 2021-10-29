@@ -13,6 +13,7 @@
 
 .contact__box--1 {
   padding-left: 2rem;
+  padding-right: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -20,12 +21,14 @@
 
 .contact__box--2 {
   padding-left: 2rem;
+  padding-right: 2rem;
   border-right: 2px solid white;
   border-left: 2px solid white;
 }
 
 .contact__box--3 {
   padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .contact__header {
@@ -38,6 +41,18 @@
 
 .contact__questionContainer {
   color: white;
+}
+
+.contact__slider {
+  width: 10rem;
+  height: 10rem;
+  color: white;
+}
+
+.contact__sliderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact__text {
