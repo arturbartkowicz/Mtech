@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import Logo from "../public/images/Logo.png";
 
 export default function Nav() {
   return (
     <nav className="nav">
       <div className="nav__logo">
-        <Image src="/images/logo.png" alt="Company logo" layout="fill" />
+        <Image src={Logo} alt="Company logo" />
       </div>
       <ul className="nav__list visibilityDesktop">
         <li className="nav__link">

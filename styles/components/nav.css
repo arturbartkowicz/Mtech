@@ -7,9 +7,10 @@
 }
 
 .nav__logo {
-  width: 14rem;
-  height: 7rem;
-  position: relative;
+  padding: 1rem;
+  width: 11rem;
+  /* height: 2rem; */
+  /* position: relative; */
 }
 
 .nav__list {
