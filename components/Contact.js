@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -63,8 +64,12 @@ export default function Contact() {
         <div className="contact__sliderContainer">
           <div className="contact__slider">
             <Slider {...settings}>
-              <div className="w-full flex justify-center">
-                <h3>1sdkjfnkjfnkjfnfk sf fewf</h3>
+              <div className="w-10 h-10">
+                <Image
+                  src="/images/logo.png"
+                  alt="Company logo"
+                  layout="fill"
+                />
               </div>
               <div>
                 <h3>2</h3>
