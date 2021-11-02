@@ -44,7 +44,7 @@
 }
 
 .contact__slider {
-  width: 10rem;
+  width: 17rem;
   height: 10rem;
   color: white;
 }
@@ -58,6 +58,12 @@
 .contact__text {
   color: white;
   margin-bottom: 1rem;
+}
+
+.contact__sliderBox {
+  position: relative;
+  width: 4rem;
+  height: 12rem;
 }
 
 @media (max-width: 800px) {

@@ -7,7 +7,7 @@ export default function Contact() {
   const settings = {
     autoplay: true,
     autoplaySpeed: 5000,
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -19,21 +19,11 @@ export default function Contact() {
       <div className="contact__box contact__box--1">
         <h3 className="contact__header">Pytania i odpowiedzi:</h3>
         <div className="w-full">
-          <div className="contact__questionContainer">
-            Najczęstsze pytanie #1
-          </div>
-          <div className="contact__questionContainer">
-            Najczęstsze pytanie #2
-          </div>
-          <div className="contact__questionContainer">
-            Najczęstsze pytanie #3
-          </div>
-          <div className="contact__questionContainer">
-            Najczęstsze pytanie #4
-          </div>
-          <div className="contact__questionContainer">
-            Najczęstsze pytanie #5
-          </div>
+          <div className="contact__questionContainer">Najczęstsze pytanie #1</div>
+          <div className="contact__questionContainer">Najczęstsze pytanie #2</div>
+          <div className="contact__questionContainer">Najczęstsze pytanie #3</div>
+          <div className="contact__questionContainer">Najczęstsze pytanie #4</div>
+          <div className="contact__questionContainer">Najczęstsze pytanie #5</div>
         </div>
         <div className="btn__container">
           <button className="btn">pokaz więcej</button>
@@ -64,27 +54,14 @@ export default function Contact() {
         <div className="contact__sliderContainer">
           <div className="contact__slider">
             <Slider {...settings}>
-              <div className="w-10 h-10">
-                <Image
-                  src="/images/logo.png"
-                  alt="Company logo"
-                  layout="fill"
-                />
+              <div className="contact__sliderBox">
+                <Image src="/images/partners-logo/sample-1.png" alt="Company logo" layout="fill" />
               </div>
-              <div>
-                <h3>2</h3>
+              <div className="contact__sliderBox">
+                <Image src="/images/partners-logo/sample-2.png" alt="Company logo" layout="fill" />
               </div>
-              <div>
-                <h3>3</h3>
-              </div>
-              <div>
-                <h3>4</h3>
-              </div>
-              <div>
-                <h3>5</h3>
-              </div>
-              <div>
-                <h3>6</h3>
+              <div className="contact__sliderBox">
+                <Image src="/images/partners-logo/sample-3.png" alt="Company logo" layout="fill" />
               </div>
             </Slider>
           </div>
