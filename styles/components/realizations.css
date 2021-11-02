@@ -12,12 +12,10 @@
   margin-bottom: 3rem;
 }
 
-.realizations__box {
-  width: 1290px;
+.realizations__cardContainer {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 @media (max-width: 800px) {
-  .realizations__box {
-    width: auto;
-  }
 }
