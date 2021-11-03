@@ -21,12 +21,34 @@ export default function Realizations() {
         <div className="realizations__cardContainer">
           <Slider {...settings}>
             <div className="realizations__card">
-              <div className="realizations__cardLeft">1234</div>
-              <div className="realizations__cardRight">5678</div>
+              <div className="realizations__cardLeft">
+                <h3 className="realizations__header">Nazwa realizacji</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut iste veniam impedit rem, praesentium
+                  consequuntur magnam optio, nam molestias dolores laboriosam aspernatur! Quibusdam sed nisi rem magni
+                  voluptatibus natus expedita. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat hic
+                  laboriosam quam, quidem ullam excepturi aut saepe dicta cumque nobis sapiente deserunt tenetur sunt
+                  veritatis illo rerum, alias sint dolorum. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </div>
+              <div className="realizations__cardRight relative">
+                <Image src="/images/realizations/realization-1.png" alt="Company logo" layout="fill" />
+              </div>
             </div>
             <div className="realizations__card">
-              <div className="realizations__cardLeft">abcd</div>
-              <div className="realizations__cardRight">efgh</div>
+              <div className="realizations__cardLeft">
+                <h3 className="realizations__header">Nazwa realizacji</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut iste veniam impedit rem, praesentium
+                  consequuntur magnam optio, nam molestias dolores laboriosam aspernatur! Quibusdam sed nisi rem magni
+                  voluptatibus natus expedita. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat hic
+                  laboriosam quam, quidem ullam excepturi aut saepe dicta cumque nobis sapiente deserunt tenetur sunt
+                  veritatis illo rerum, alias sint dolorum. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </div>
+              <div className="realizations__cardRight relative">
+                <Image src="/images/realizations/realization-2.png" alt="Company logo" layout="fill" />
+              </div>
             </div>
           </Slider>
         </div>

@@ -19,19 +19,29 @@
 
 .realizations__card {
   display: flex !important;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
 }
 
 .realizations__cardLeft {
   flex: 5;
-  background-color: azure;
+  background-color: white;
   color: black;
+  text-align: start;
+  padding: 2rem;
 }
 
 .realizations__cardRight {
+  position: relative;
+  min-height: 10rem;
   flex: 6;
   background-color: grey;
+}
+
+.realizations__header {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 800px) {
@@ -50,5 +60,9 @@
     flex-direction: column;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .realizations__cardLeft {
+    padding: 1rem;
   }
 }
