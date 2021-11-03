@@ -19,10 +19,16 @@ export default function Realizations() {
       <div className="realizations__container">
         <h2 className="heading text-white">Nasze realizacje</h2>
         <div className="realizations__cardContainer">
-          {/* <Slider {...settings}>
-            <div>sdkjnsfjdnw</div>
-            <div>slfkmlkfmwlkefmlwkmfwlfkm</div>
-          </Slider> */}
+          <Slider {...settings}>
+            <div className="realizations__card">
+              <div className="realizations__cardLeft">1234</div>
+              <div className="realizations__cardRight">5678</div>
+            </div>
+            <div className="realizations__card">
+              <div className="realizations__cardLeft">abcd</div>
+              <div className="realizations__cardRight">efgh</div>
+            </div>
+          </Slider>
         </div>
       </div>
     </div>

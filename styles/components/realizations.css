@@ -1,7 +1,7 @@
 .realizations {
-  width: 100%;
   display: flex;
   justify-content: center;
+  width: 100%;
   background-color: black;
   color: white;
 }
@@ -17,5 +17,38 @@
   padding-right: 2rem;
 }
 
+.realizations__card {
+  display: flex !important;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.realizations__cardLeft {
+  flex: 5;
+  background-color: azure;
+  color: black;
+}
+
+.realizations__cardRight {
+  flex: 6;
+  background-color: grey;
+}
+
 @media (max-width: 800px) {
+  .realizations {
+    display: block;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .realizations__cardContainer {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .realizations__card {
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
