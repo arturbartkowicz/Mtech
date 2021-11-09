@@ -11,44 +11,32 @@ export default function Nav() {
       <ul className="nav__list visibilityDesktop">
         <li className="nav__link">
           <Link href="/#about">
-            <a className="text-white">
-              <u>O FIRMIE</u>
-            </a>
+            <a className="nav__linkText">O FIRMIE</a>
           </Link>
         </li>
         <li className="nav__link">
           <Link href="/#products">
-            <a className="text-white">
-              <u>PRODUKTY</u>
-            </a>
+            <a className="nav__linkText">PRODUKTY</a>
           </Link>
         </li>
         <li className="nav__link">
           <Link href="/#services">
-            <a className="text-white">
-              <u>USŁUGI</u>
-            </a>
+            <a className="nav__linkText">USŁUGI</a>
           </Link>
         </li>
         <li className="nav__link">
           <Link href="/#realizations">
-            <a className="text-white">
-              <u>REALIZACJE</u>
-            </a>
+            <a className="nav__linkText">REALIZACJE</a>
           </Link>
         </li>
         <li className="nav__link">
           <Link href="/#cooperation">
-            <a className="text-white">
-              <u>WSPÓŁPRACA</u>
-            </a>
+            <a className="nav__linkText">WSPÓŁPRACA</a>
           </Link>
         </li>
         <li className="nav__link">
           <Link href="/#contact">
-            <a className="text-white">
-              <u>PYTANIA I KONTAKT</u>
-            </a>
+            <a className="nav__linkText">PYTANIA I KONTAKT</a>
           </Link>
         </li>
       </ul>
