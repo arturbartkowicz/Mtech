@@ -3,7 +3,7 @@
   justify-content: center;
   width: 100%;
   background-color: black;
-  padding-top: 2rem;
+  scroll-margin-top: 7rem;
 }
 
 .products__wrapper {
