@@ -1,8 +1,9 @@
 .btn {
   color: white;
   background-color: var(--color-red);
-  width: 20rem;
+  width: 80%;
   height: 2.5rem;
+  font-weight: bold;
 }
 
 .btn__container {

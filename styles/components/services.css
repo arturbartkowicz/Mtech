@@ -1,4 +1,62 @@
 .services {
+  display: flex;
+  justify-content: center;
   width: 100%;
-  height: 50rem;
+  background-color: #f9f9f9;
+}
+
+.services__wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 1400px;
+  padding: 6rem 0;
+  gap: 2rem 10rem;
+}
+
+.services__header {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.services__tilesWrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  gap: 4rem 2rem;
+}
+
+.services__tile {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 350px;
+  padding: 2rem;
+  background-color: #fff;
+  gap: 1rem;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.servicesTile__icon {
+  display: flex;
+  flex-flow: column;
+  width: 70%;
+  position: relative;
+}
+
+.servicesTile__content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.servicesTile__title {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.servicesTile__text {
+  text-align: center;
 }
