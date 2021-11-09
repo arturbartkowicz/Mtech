@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+import { slide as Menu } from "react-burger-menu";
 import Logo from "../public/images/Logo.png";
 import Facebook from "../public/images/social/facebook.png";
 import Instagram from "../public/images/social/instagram.png";
-import { slide as Menu } from "react-burger-menu";
 
 export default function Nav() {
   const showSettings = (event) => {
@@ -55,19 +55,25 @@ export default function Nav() {
           <Image src={Facebook} alt="Facebook" layout="fill" />
         </div>
       </div>
-      <div className="relative w-4 h-4 visibilityMobile">
+      <div className="relative h-8 visibilityMobile">
         <Menu className="visibilityMobile">
-          <a id="home" className="menu-item" href="/">
-            Home
+          <a id="bmabout" className="menu-item" href="/#about">
+            O FIRMIE
           </a>
-          <a id="about" className="menu-item" href="/about">
-            About
+          <a id="bmproducts" className="menu-item" href="/#products">
+            PRODUKTY
           </a>
-          <a id="contact" className="menu-item" href="/contact">
-            Contact
+          <a id="bmservices" className="menu-item" href="/#services">
+            USŁUGI
           </a>
-          <a onClick={showSettings} className="menu-item--small" href="">
-            Settings
+          <a id="bmrealizations" className="menu-item" href="/#realizations">
+            REALIZACJE
+          </a>
+          <a id="bmcooperation" className="menu-item" href="/#cooperation">
+            WSPŁPRACA
+          </a>
+          <a id="bmcontact" className="menu-item" href="/#contact">
+            KONTAKT
           </a>
         </Menu>
       </div>
