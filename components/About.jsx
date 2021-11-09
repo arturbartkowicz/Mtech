@@ -17,9 +17,18 @@ export default function About() {
         </div>
         <div className="about__section features">
           <ul className="features_list">
-            <li className="feature"><div className="feature__list_bullet" /><span>Jakość</span></li>
-            <li className="feature"><div className="feature__list_bullet" /><span>Profesjonalizm</span></li>
-            <li className="feature"><div className="feature__list_bullet" /><span>Pełna gama kolorów</span></li>
+            <li className="feature">
+              <div className="feature__list_bullet" />
+              <span>Jakość</span>
+            </li>
+            <li className="feature">
+              <div className="feature__list_bullet" />
+              <span>Profesjonalizm</span>
+            </li>
+            <li className="feature">
+              <div className="feature__list_bullet" />
+              <span>Pełna gama kolorów</span>
+            </li>
           </ul>
         </div>
       </div>

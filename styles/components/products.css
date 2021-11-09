@@ -18,7 +18,8 @@
 .products__tile {
   display: flex;
   flex-flow: column;
-  width: 350px;
+  max-width: 350px;
+  width: 90%;
   background-color: #fff;
 }
 
@@ -44,4 +45,10 @@
   flex-flow: column;
   height: 250px;
   position: relative;
+}
+
+@media (max-width: 800px) {
+  .products__wrapper {
+    padding: 1rem 0;
+  }
 }

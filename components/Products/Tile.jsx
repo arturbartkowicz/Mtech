@@ -10,7 +10,7 @@ const ProductTile = ({ title, content, image }) => {
         <button className="btn productsTile__button">dowiedz się więcej</button>
       </div>
       <div className="productsTile__image">
-        <Image layout="fill" src={image} />
+        <Image layout="fill" objectFit="cover" src={image} />
       </div>
     </div>
   );
