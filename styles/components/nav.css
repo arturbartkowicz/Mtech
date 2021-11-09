@@ -56,9 +56,15 @@
 }
 
 .nav__socialMediaIcon {
-  width: 1rem;
-  height: 1rem;
-  background-color: white;
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  transition: 0.2s ease-in-out;
+}
+
+.nav__socialMediaIcon:hover {
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .nav__socialMediaWrapper {
