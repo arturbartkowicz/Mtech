@@ -3,8 +3,13 @@ import Link from "next/link";
 import Logo from "../public/images/Logo.png";
 import Facebook from "../public/images/social/facebook.png";
 import Instagram from "../public/images/social/instagram.png";
+import { slide as Menu } from "react-burger-menu";
 
 export default function Nav() {
+  const showSettings = (event) => {
+    event.preventDefault();
+  };
+
   return (
     <nav className="nav">
       <div className="nav__logo">
@@ -49,6 +54,22 @@ export default function Nav() {
         <div className="nav__socialMediaIcon">
           <Image src={Facebook} alt="Facebook" layout="fill" />
         </div>
+      </div>
+      <div className="relative w-4 h-4 visibilityMobile">
+        <Menu className="visibilityMobile">
+          <a id="home" className="menu-item" href="/">
+            Home
+          </a>
+          <a id="about" className="menu-item" href="/about">
+            About
+          </a>
+          <a id="contact" className="menu-item" href="/contact">
+            Contact
+          </a>
+          <a onClick={showSettings} className="menu-item--small" href="">
+            Settings
+          </a>
+        </Menu>
       </div>
     </nav>
   );

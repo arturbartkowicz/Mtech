@@ -83,3 +83,17 @@
     margin-left: 0;
   }
 }
+
+.my-class {
+  background-color: white;
+}
+
+.bm-burger-button {
+  width: 36px;
+  height: 30px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+}
