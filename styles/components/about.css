@@ -5,7 +5,7 @@
   background-image: url("../../public/images/AboutBG.png");
   background-size: cover;
   background-position: right;
-  padding-top: 3rem;
+  padding: 3rem 0;
   scroll-margin-top: 8rem;
 }
 
@@ -13,7 +13,8 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  width: 1400px;
+  max-width: 1400px;
+  width: 100%;
   padding: 10rem 0;
   gap: 3rem 0;
 }
@@ -28,6 +29,7 @@
 
 .about__section_header {
   font-size: 4rem;
+  width: 75%;
   font-weight: 600;
 }
 
@@ -38,6 +40,7 @@
 
 .features {
   align-items: center;
+  max-width: 90%;
 }
 
 .features_list {
@@ -59,4 +62,26 @@
   width: 2rem;
   margin-right: 2rem;
   background-color: var(--color-red);
+}
+
+@media (max-width: 800px) {
+  .about__wrapper {
+    padding: 1rem 0;
+  }
+
+  .about__section_header {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .about__description {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 560px) {
+  .feature {
+    font-size: 2rem;
+  }
 }

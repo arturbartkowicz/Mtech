@@ -25,14 +25,15 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  gap: 4rem 2rem;
+  gap: 4rem 3rem;
 }
 
 .services__tile {
   display: flex;
   flex-flow: column;
   align-items: center;
-  width: 350px;
+  max-width: 320px;
+  width: 90%;
   padding: 2rem;
   background-color: #fff;
   gap: 1rem;
