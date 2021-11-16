@@ -17,7 +17,7 @@ export default function Realizations() {
   return (
     <div id="realizations" className="realizations">
       <div className="realizations__container">
-        <h2 className="heading text-white">Nasze realizacje</h2>
+        <h2 className="heading realizations__heading">Nasze realizacje</h2>
         <div className="realizations__cardContainer">
           <Slider {...settings}>
             <div className="realizations__card">

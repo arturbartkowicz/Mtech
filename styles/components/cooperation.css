@@ -11,3 +11,9 @@
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+
+@media (max-width: 1300px) {
+  .cooperation__heading {
+    text-align: center;
+  }
+}

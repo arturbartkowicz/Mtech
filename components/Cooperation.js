@@ -2,7 +2,7 @@ export default function Cooperation() {
   return (
     <div id="cooperation" className="cooperation">
       <div className="cooperation__container">
-        <h2 className="heading">Warunki współpracy</h2>
+        <h2 className="heading cooperation__heading">Warunki współpracy</h2>
         <p className="paragraphText">
           Opis warunków współpracy. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, exercitationem hic.
           Quam quo blanditiis distinctio magni ipsa ab, cumque aspernatur doloremque impedit mollitia nam fugiat quaerat

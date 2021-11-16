@@ -45,7 +45,31 @@
   margin-bottom: 1rem;
 }
 
-@media (max-width: 800px) {
+.realizations__heading {
+  color: white;
+}
+
+@media (max-width: 1300px) {
+  .realizations__container {
+    max-width: 1100px;
+  }
+
+  .realizations__heading {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1120px) {
+  .realizations__container {
+    max-width: 800px;
+  }
+  .realizations__cardContainer {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
+@media (max-width: 900px) {
   .realizations {
     display: block;
     padding-top: 3rem;
