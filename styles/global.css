@@ -372,7 +372,7 @@ th {
 }
 /* Custom styles */
 
-@media (min-width: 1279px) {
+@media (min-width: 800px) {
   .visibilityMobile {
     display: none !important;
   }

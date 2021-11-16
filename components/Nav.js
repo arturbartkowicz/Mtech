@@ -55,8 +55,8 @@ export default function Nav() {
           <Image src={Facebook} alt="Facebook" layout="fill" />
         </div>
       </div>
-      <div className="relative h-8 visibilityMobile">
-        <Menu className="visibilityMobile">
+      <div className="burgerMenu relative h-8">
+        <Menu>
           <a id="bmabout" className="menu-item" href="/#about">
             O FIRMIE
           </a>

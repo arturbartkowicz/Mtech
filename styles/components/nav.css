@@ -76,13 +76,42 @@
   flex: 1;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1380px) {
+  .nav__linkText {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .nav__link {
+    margin-right: 0;
+  }
+
+  .nav__linkText:hover {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .nav__socialMediaWrapper {
+    display: none;
+  }
+
+  .nav__list {
+    display: none;
+  }
+
   .nav {
     display: flex;
     justify-content: space-around;
   }
   .nav__logo {
     margin-left: 0;
+  }
+}
+
+@media (min-width: 1201px) {
+  .burgerMenu {
+    display: none;
   }
 }
 
