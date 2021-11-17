@@ -1,4 +1,4 @@
-import ProductTile from "./Tile";
+import ProductTile from "./tile";
 import service1 from "../../public/images/realizations/realization-1.png";
 import service2 from "../../public/images/realizations/realization-2.png";
 import productsContent from "../../utils/content/products";
