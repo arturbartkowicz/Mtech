@@ -28,7 +28,8 @@ export default function Realizations() {
                   consequuntur magnam optio, nam molestias dolores laboriosam aspernatur! Quibusdam sed nisi rem magni
                   voluptatibus natus expedita. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat hic
                   laboriosam quam, quidem ullam excepturi aut saepe dicta cumque nobis sapiente deserunt tenetur sunt
-                  veritatis illo rerum, alias sint dolorum. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  veritatis illo rerum, alias sint dolorum. dolorum. Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.
                 </p>
               </div>
               <div className="realizations__cardRight relative">
