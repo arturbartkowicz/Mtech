@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import Nav from "../components/Nav";
-import About from "../components/About";
+import About from "../components/about";
 import Products from "../components/Products/index";
 import Services from "../components/Services/index";
 import Realizations from "../components/Realizations";
