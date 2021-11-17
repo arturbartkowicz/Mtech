@@ -1,4 +1,4 @@
-import ServicesTile from "./Tile";
+import ServicesTile from "./tile";
 
 export default function Services() {
   return (
